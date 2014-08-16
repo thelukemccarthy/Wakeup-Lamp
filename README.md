@@ -1,7 +1,7 @@
 Wakeup-Lamp
 ===========
 
-h2. **WARNING:** This project users mains voltage and misuse or lack of knowledge could result in severe injury or even death.
+## **WARNING:** This project users mains voltage and misuse or lack of knowledge could result in severe injury or even death.
 If you don't know what you are doing or are unsure of what you are doing don't attempt this project.
 
 The software required to make a wakeup lamp using a Raspberry Pi, Velleman K8064 DC Controlled Dimmer and a beside lamp.
@@ -9,6 +9,7 @@ The software required to make a wakeup lamp using a Raspberry Pi, Velleman K8064
 The code is written in python and users a couple of interesting techniques such as
 * A finite state machine
 * A PWM (Pulse Width Modulation)
+
 In the future I hope to implement a software implemented capacitance touch switch
 
 If I ever get around to it I will post full instructions on [my blog](http://www.my-side-projects.blogspot.co.uk)
