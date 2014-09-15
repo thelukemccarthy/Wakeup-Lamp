@@ -1,0 +1,6 @@
+<form name='lamp-switch' action='lamp/update' method='post'>
+  <input type='submit' value='Off' <% if @lamp_state == 'Off' %>disabled<% end %>>
+  <input type='submit' value='Low' <% if @lamp_state == 'Low' %>disabled<% end %>>
+  <input type='submit' value='Medium' <% if @lamp_state == 'Medium' %>disabled<% end %>>
+  <input type='submit' value='High' <% if @lamp_state == 'High' %>disabled<% end %>>
+</form>
